@@ -3,4 +3,4 @@
 ## Technology Stack & Tools
 
 - Javascript (React)
-- [Fleek](https://fleek.co/) (Website Deployment)
+- [Fleek](https://gokou.on.fleek.co) (Website Deployment)
