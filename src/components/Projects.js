@@ -1,6 +1,7 @@
 // Import Assets
 import rng from "../assets/rng.png";
 import todo from "../assets/todo.png";
+import select from "../assets/select.png"
 
 const Projects = () => {
   return (
@@ -50,6 +51,29 @@ const Projects = () => {
           </a>
           <a
             href="https://github.com/WSGokou/typescript-todo"
+            target="_blank"
+            className="button"
+          >
+            Code
+          </a>
+        </div>
+        <div className="projects__card">
+          <h3>Select Component</h3>
+          <img src={select} alt="Select Component" />
+          <p>
+            Single and multi select components built using Typescript, with added keyboard functionality
+            Hosted on the IPFS using fleek
+          </p>
+
+          <a
+            href="https://gokou-tsselect.on.fleek.co"
+            target="_blank"
+            className="button"
+          >
+            Site
+          </a>
+          <a
+            href="https://github.com/WSGokou/typescript-select"
             target="_blank"
             className="button"
           >
